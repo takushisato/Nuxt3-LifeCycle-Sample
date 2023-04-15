@@ -1,4 +1,26 @@
-<script lang="ts"></script>
+<script>
+import { ref } from 'vue'
+export default ({
+  setup() {
+    const isShow = ref(true)
+    const toggleIsShow = () => {
+      if (isShow.value) {
+        isShow.value = false
+      } else {
+        isShow.value = true
+      }
+    }
+
+    return {
+      isShow,
+      toggleIsShow
+    }
+  }
+})
+</script>
 <template>
-  <h1>test</h1>
+  <div>
+    <life-cycle v-if="isShow" />
+    <button @click="toggleIsShow">isShow</button>
+  </div>
 </template>
