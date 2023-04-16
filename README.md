@@ -22,6 +22,6 @@ componentsの中のLifeCycle.vueに記載しています。
 余談ですが、nuxt.config.ts が defineNuxtConfig でexportするとエラーを吐きます。
 プロジェクト作成時からなので、バージョンアップで何か仕様が変わったっぽいですが、現状確認できていません。
 defineNuxtConfigを削除しても動く様なので今は削除して対応しています。
-<br>
+<br><br>
 バージョン情報<br>
 Nuxt3　3.4.1
