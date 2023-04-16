@@ -1,5 +1,6 @@
 # Nuxt3 ライフサイクルイベントのサンプル
 <br>
+
 ## 起動について
 yarnが入っているので、下記コマンドで起動可能です。
 
@@ -12,12 +13,14 @@ yarn dev
 npm run dev
 ```
 <br>
+
 ## サンプルのディレクトリについて
 componentsの中のLifeCycle.vueに記載しています。
 
 それをpagesのindex.vueが呼び出す形になっています。
 
 <br>
+
 ## その他
 余談ですが、nuxt.config.ts が defineNuxtConfig でexportするとエラーを吐きます。
 プロジェクト作成時からなので、バージョンアップで何か仕様が変わったっぽいですが、現状確認できていません。
