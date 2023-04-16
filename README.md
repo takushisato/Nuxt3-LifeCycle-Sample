@@ -17,14 +17,16 @@ npm run dev
 ## サンプルのディレクトリについて
 ```src/components/blocks```の中の```LifeCycle.vue```に記載しています。
 
-それをpagesのindex.vueが呼び出す形になっています。
+それを```pages```の```index.vue```が呼び出す形になっています。
 
 <br>
 
 ## その他
-余談ですが、nuxt.config.ts が defineNuxtConfig でexportするとエラーを吐きます。
+余談ですが```nuxt.config.ts```が```defineNuxtConfig```で```export```するとエラーを吐きます。
 プロジェクト作成時からなので、バージョンアップで何か仕様が変わったっぽいですが、現状確認できていません。
-defineNuxtConfigを削除しても動く様なので今は削除して対応しています。
+```defineNuxtConfig```を削除しても動く様なので今は削除して対応しています。
 <br><br>
 バージョン情報<br>
+```
 Nuxt3　3.4.1
+```
