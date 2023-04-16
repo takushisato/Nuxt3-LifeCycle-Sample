@@ -15,7 +15,7 @@ npm run dev
 <br>
 
 ## サンプルのディレクトリについて
-componentsの中のLifeCycle.vueに記載しています。
+src/components/blocksの中のLifeCycle.vueに記載しています。
 
 それをpagesのindex.vueが呼び出す形になっています。
 
