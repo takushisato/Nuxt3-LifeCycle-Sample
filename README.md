@@ -1,42 +1,27 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 ライフサイクルイベントのサンプル
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 起動について
+yarnが入っているので、下記コマンドで起動可能です。
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+```
+yarn dev
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
+もしくは通常通りnpmコマンドでも起動できます。
+```
 npm run dev
 ```
 
-## Production
+## サンプルのディレクトリについて
+componentsの中のLifeCycle.vueに記載しています。
 
-Build the application for production:
+それをpagesのindex.vueが呼び出す形になっています。
 
-```bash
-npm run build
-```
 
-Locally preview production build:
+## その他
+余談ですが、nuxt.config.ts が defineNuxtConfig でexportするとエラーを吐きます。
+プロジェクト作成時からなので、バージョンアップで何か仕様が変わったっぽいですが、現状確認できていません。
+defineNuxtConfigを削除しても動く様なので今は削除して対応しています。
 
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+バージョン情報
+Nuxt3　3.4.1
