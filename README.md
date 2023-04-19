@@ -24,7 +24,8 @@ npm run dev
 ## その他
 余談ですが```nuxt.config.ts```が```defineNuxtConfig```で```export```するとエラーを吐きます。
 プロジェクト作成時からなので、バージョンアップで何か仕様が変わったっぽいですが、現状確認できていません。
-```defineNuxtConfig```を削除しても動く様なので今は削除して対応しています。
+```defineNuxtConfig```を削除しても動く様なので今は削除して対応しています。<br>
+また、setupの書き方がscriptタグではなく、setup()として書いてあります（実験）
 <br><br>
 バージョン情報<br>
 ```
